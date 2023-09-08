@@ -1,0 +1,92 @@
+.heroWrapper {
+  width: 100%;
+  min-height: 460px;
+  background: #ffffff;
+  position: relative;
+  justify-content: flex-start;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.heroInner {
+  margin-left: 100px;
+  margin-top: 150px;
+  flex-direction: column;
+  z-index: 10;
+  width: 30%;
+}
+
+
+.headerText {
+  letter-spacing: 0.5px;
+  font-size: 1.5rem;
+  color: #38B577;
+  font-weight: 600;
+  width: 100%;
+  margin-top: 5px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.heroImage {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 100%;
+}
+
+.heroImage img {
+  height: 100%;
+}
+.arrow {
+  color: #ffffff;
+}
+
+@media (max-width: 900px) {
+  .heroImage {
+    width: 100%;
+    top: 132px;
+  }
+  .heroImage img {
+    transform: rotate(-0deg) scale(1.2);
+    height: 67vw;
+    object-fit: cover;
+    position: absolute;
+    left: 10%;
+    bottom: 10px;
+  }
+  .heroWrapper {
+    align-items: flex-end;
+  }
+
+  .heroInner {
+    margin: 0px 20px;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .slogan {
+    display: none;
+  }
+  .headerText {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .heroImage img {
+    bottom: 160px;
+  }
+  .headerText {
+    width: 80%;
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .headerText {
+    width: 80%;
+    font-size: 1.5rem;
+  }
+}
