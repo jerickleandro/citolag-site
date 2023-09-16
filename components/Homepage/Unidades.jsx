@@ -6,7 +6,7 @@ function Unidades() {
   return (
     <section id="unidades" className="content-wrapper has-animation">
       <div className="wrapper">
-        <div className="solutions first-fold">
+        <div className="solutions first-fold top-reduzido" style={{"padding-top":"0px"}}>
           <div className="col right products-slider owl-carousel">
             <div className="block">
               <div className="product">

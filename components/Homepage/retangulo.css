@@ -6,7 +6,7 @@
 }
 
 .rectangle {
-  background-color: #1e407c;
+  background-color: #1f5eca;
   border-radius: 30px;
   padding: 12% 5% 3% 5%;
   text-align: center;
@@ -54,8 +54,8 @@
   margin-top: auto; /* Use 'margin-top: auto' para alinhar o botão ao fundo */
 }
 
-.button {
-  background-color: #2859a1;
+.container .rectangle .button {
+  background-color: #1f6cdf;
   border-radius: 15px;
   width: 90%;
   display: flex;
@@ -71,6 +71,17 @@
 }
 
 .arrow {
-  margin-bottom: 10px;
-  font-size: 250%;
+  margin-bottom: 17px;
+    margin-left: -30px;
+    font-size: 250%;
+    color: white;
+
+}
+
+
+@media only screen and (max-width: 900px) {
+  .rectangle {
+    width: 400px;
+
+  }
 }

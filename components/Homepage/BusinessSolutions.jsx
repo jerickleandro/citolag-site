@@ -9,7 +9,7 @@ function BusinessSolutions() {
           <div className="col left">
             <div className="block">
               <h2 className="section-title">Nossos Serviços</h2>
-              <p>
+              <p style={{ "text-align": "justify" }}>
                 O Laboratórios Citolag há 20 anos, atuando na Cidade de
                 Garanhuns/PE, conhecido não só pela qualidade, agilidade e
                 exatidão nas análises, mas também no auxílio de diagnóstico com
@@ -30,7 +30,7 @@ function BusinessSolutions() {
                   <h3 className="title">
                   Exames laboratoriais
                   </h3>
-                  <p>Exames laboratoriais são importantes para detectar alterações no organismo, mesmo que assintomáticas, e iniciar o tratamento o mais breve possível. Eles também são usados para avaliar o risco anestésico-cirúrgico em avaliações pré-operatórias. Na medicina diagnóstica, eles são usados em 70% das decisões clínicas relacionadas ao diagnóstico e tratamento de problemas de saúde.</p>
+                <p style={{ "text-align": "justify" }}>Exames laboratoriais são importantes para detectar alterações no organismo, mesmo que assintomáticas, e iniciar o tratamento o mais breve possível. Eles também são usados para avaliar o risco anestésico-cirúrgico em avaliações pré-operatórias. Na medicina diagnóstica, eles são usados em 70% das decisões clínicas relacionadas ao diagnóstico e tratamento de problemas de saúde.</p>
                 </div>
               </div>
             </div>
@@ -43,7 +43,7 @@ function BusinessSolutions() {
                   <h3 className="title">
                   Citologia
                   </h3>
-                  <p>O exame de citologia oncótica, também conhecido como exame preventivo do colo do útero ou papanicolau, é a principal estratégia escolhida no Brasil para o rastreamento precoce do câncer de colo de útero e doenças sexualmente transmissíveis. É um exame simples realizado em consultório médico e é importante para a prevenção da saúde.</p>
+                  <p style={{ "text-align": "justify" }}>O exame de citologia oncótica, também conhecido como exame preventivo do colo do útero ou papanicolau, é a principal estratégia escolhida no Brasil para o rastreamento precoce do câncer de colo de útero e doenças sexualmente transmissíveis. É um exame simples realizado em consultório médico e é importante para a prevenção da saúde.</p>
                 </div>
               </div>
             </div>
@@ -56,7 +56,7 @@ function BusinessSolutions() {
                   <h3 className="title">
                   Atendimento infantil
                   </h3>
-                  <p>Pensando no conforto e bem-estar das crianças, os colaboradores que coletam o sangue são especializados em atender crianças, para que se sintam mais seguras! Conheça nossas unidades, tire suas dúvidas e traga seu filho para fazer exames conosco de forma rápida e segura.</p>
+                  <p style={{ "text-align": "justify" }}>Pensando no conforto e bem-estar das crianças, os colaboradores que coletam o sangue são especializados em atender crianças, para que se sintam mais seguras! Conheça nossas unidades, tire suas dúvidas e traga seu filho para fazer exames conosco de forma rápida e segura.</p>
                 </div>
               </div>
             </div>

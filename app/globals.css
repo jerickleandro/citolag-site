@@ -348,7 +348,7 @@
     font-weight: bold;
     color: var(--color-primary);
     font-size: var(--text-2xl);
-    margin-bottom: 36px;
+    margin-bottom: 0px;
     line-height: 1.2;
   }
   .section-title .light {

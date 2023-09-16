@@ -9,17 +9,6 @@ function Blog() {
           <div className="col left">
             <div className="block">
               <h2 className="section-title">Novidades para você.</h2>
-              {/* <p>
-                O Laboratórios Citolag há 20 anos, atuando na Cidade de
-                Garanhuns/PE, conhecido não só pela qualidade, agilidade e
-                exatidão nas análises, mas também no auxílio de diagnóstico com
-                rigor cientíﬁco, ética e conﬁabilidade, ganhador do prêmio
-                Marcas de Credibilidade na Revista VEJA entre as melhores
-                Empresas do ano de 2017 em seu segmento.
-              </p>
-              <a href="#" className="link-btn">
-                Agende agora seu exame
-              </a> */}
             </div>
           </div>
           <div className="col right products-slider owl-carousel">

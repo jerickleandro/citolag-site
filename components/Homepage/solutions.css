@@ -12,13 +12,16 @@
   display: flex;
   width: 100%;
   table-layout: fixed;
-  padding-top: 30px;
+  padding-top: 140px;
   
 }
 .solutions .col {
   display: flex;
   vertical-align: top;
   
+}
+.solutions .first-fold .top-reduzido{
+  padding-top: -27px;
 }
 
 .solutions .block {
@@ -275,4 +278,9 @@
 }
 .products-slider .owl-nav button.disabled i {
   color: var(--color-text-gray);
+}
+
+
+@media (max-width: 900px) {
+
 }

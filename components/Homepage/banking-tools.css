@@ -4,8 +4,9 @@
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin: 0 0 0 0px;
+  margin: -137px 0px 0px 0px;
   justify-content: space-evenly;
+  position: absolute;
 }
 .banking-tools li {
   padding: 0 0 0 18px;
@@ -45,9 +46,11 @@
   background-color: #52a6c7;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1695px) {
   .banking-tools {
-    margin-top: -18px;
+    margin-top: 25px;
+    margin-left: -15px;
+    position: relative;
   }
   .banking-tools li {
     -webkit-box-flex: 0;

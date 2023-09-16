@@ -22,7 +22,7 @@
   font-size: 1.5rem;
   color: #38B577;
   font-weight: 600;
-  width: 100%;
+  width: 80%;
   margin-top: 5px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -41,8 +41,27 @@
 }
 .arrow {
   color: #ffffff;
+  
 }
 
+@media (max-width: 1764px) {
+.headerText {
+  width: 70%;
+}
+}
+
+@media (max-width: 1698px) {
+  .headerText {
+    width: 50%;
+    margin-left: -92px
+  }
+  }
+  @media (max-width: 1450) {
+    .headerText {
+      width: 30%;
+      margin-left: -92px
+    }
+    }
 @media (max-width: 900px) {
   .heroImage {
     width: 100%;
@@ -71,6 +90,7 @@
   }
   .headerText {
     font-size: 2rem;
+    margin-left: 0px
   }
 }
 
